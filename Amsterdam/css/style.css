@@ -1,0 +1,83 @@
+﻿.busan-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.busan-image {
+    width: 100%;
+    height: auto;
+}
+
+.busan-text-overlay {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 0 2rem;
+}
+
+    .busan-text-overlay h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+    }
+
+    .busan-text-overlay p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+.center-title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    flex: 1 0 25%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .card h3 {
+        margin-top: 0;
+    }
+
+.card-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #191919;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.btn-details {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+}
+
+    .btn-details:hover {
+        background-color: #3e8e41;
+    }
